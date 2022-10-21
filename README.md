@@ -24,7 +24,7 @@ The World Happiness Report dataset gathers data from the Gallup World Poll and r
 
 **Please remember to update this section and remove the test image!**
 
-{You can use this area for any images you want to include}
+![repo](images/repo.png)
 
 ## References
 
