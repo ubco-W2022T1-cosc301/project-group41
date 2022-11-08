@@ -1,4 +1,4 @@
-,Country,2015 Happiness Score,2015 Economy (GDP per Capita),2015 Trust (Government Corruption),2015 Dystopia Residual,2016 Happiness Score,2016 Economy (GDP per Capita),2016 Trust (Government Corruption),2016 Dystopia Residual,2017 Happiness Score,2017 Economy (GDP per Capita),2017 Trust (Government Corruption),2017 Dystopia Residual
+,Country,2015 Score,2015 GDP,2015 Trust,2015 Dystopia Residual,2016 Score,2016 GDP,2016 Trust,2016 Dystopia Residual,2017 Score,2017 GDP,2017 Trust,2017 Dystopia Residual
 0,Switzerland,7.587,1.39651,0.41978,2.51738,7.509,1.52733,0.41203,2.69463,7.494,1.56498,0.36701,2.27672
 1,Iceland,7.561,1.30232,0.14145,2.70201,7.501,1.42666,0.14975,2.83137,7.504,1.48063,0.15353,2.32272
 2,Denmark,7.527,1.32548,0.48357,2.49204,7.526,1.44178,0.44453,2.73939,7.522,1.48238,0.40077,2.31371
