@@ -20,9 +20,9 @@ def load_and_process(file1, file2, file3):
         .rename(columns={"Happiness Score": "2017 Score", "Economy (GDP per Capita)": "2017 GDP", "Trust (Government Corruption)": "2017 Trust", "Dystopia Residual": "2017 Dystopia Residual"})
     )
 
-    timeseries = pd.merge(clean_data1, clean_data2, how="left", on="Country")
+    timeseries = pd.merge(data1, data2, how="left", on="Country")
     timeseries = (
-        pd.merge(timeseries, clean_data3, how="left", on="Country")
+        pd.merge(timeseries, data3, how="left", on="Country")
         .dropna()
         .assign(
             AvgDR = lambda x: (x["2015 Dystopia Residual"] + x["2016 Dystopia Residual"] + x["2017 Dystopia Residual"]) / 3
@@ -31,7 +31,3 @@ def load_and_process(file1, file2, file3):
     )
 
     return timeseries
-
-
-s = load_and_process("../data/raw/2015.csv", "../data/raw/2016.csv", "../data/raw/2017.csv")
-s.head()
