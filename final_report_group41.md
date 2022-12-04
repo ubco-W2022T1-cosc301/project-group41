@@ -19,7 +19,7 @@ Happiness is defined as the state of being happy. We are interested in this beca
 
 In my EDA, I wanted to see if there was a positive correlation between the happiness score and how free the country is. I first found correlations in my dataset. I used a heatmap to create visualization of the direct correlation and found a correlation of over 0.5 between freedom and happiness. I then selected the most relevant year and made more visualizations that showed me there is a positive correlation between the freedom and happiness just like the hypothesis.
 
-### EDA2
+### Exploratory Data Analysis Highlights for Analysis 2
 
  In the EDA, I explored whether there was any relationship between
 the happiness score of a country to its general economic state and the amount of trust in its government. After exploring my data set and creating a handful of visualizations, I came to realize that there was indeed a strong correlation between the happiness score and the economy, whereas the relation is not quite as strong between the peoples trust in the government and its happiness.
@@ -55,31 +55,31 @@ What this all shows us is that the hypothesis that freedom is directly correlate
 
 ### Does trust in the government and a stable economy really increase happiness?
 
-#### Link
-
 [Link to Notebook]( https://github.com/ubco-W2022T1-cosc301/project-group41/blob/main/notebooks/analysis2.ipynb)  
 
- I am curious to learn about how the trend in happiness changes over time and how people are affected by various factors.  The economy is defined as the wealth and resources of a country or region, especially in terms of the production and consumption of goods and services. With the economy being such an important part of our world, I am intrigued to find out how it affects happiness levels. Also, alongside the economy, how much the people trust in their government and its relation to happiness is another interesting thing I want to delve into. With such radical changes in the world today along with the growth of social media I want to know how this affects happiness levels and if there is any correlation between happiness and trust in government.
+I am curious to learn about how the trend in happiness changes over time and how people are affected by various factors.  The economy is defined as the wealth and resources of a country or region, especially in terms of the production and consumption of goods and services. With the economy being such an important part of our world, I am intrigued to find out how it affects happiness levels. Also, alongside the economy, how much the people trust in their government and its relation to happiness is another interesting thing I want to delve into. With such radical changes in the world today along with the growth of social media I want to know how this affects happiness levels and if there is any correlation between happiness and trust in government.
 
- To start off, I plotted a graph between the Happiness score and Economy (GDP per Capita),
+To start off, I plotted a graph between the Happiness score and Economy (GDP per Capita),
 
 ![img](images/images-atharva/2.png)
- As we can see here, it is obvious that the **higher the economy** of the country the **greater is the happiness score**, it is linearly dependent.  
 
- After which I, compared how the Trust in the government and Happiness Score correlated combined with their GDP.
+As we can see here, it is obvious that the **higher the economy** of the country the **greater is the happiness score**, it is linearly dependent.  
+
+After which I, compared how the Trust in the government and Happiness Score correlated combined with their GDP.
 
 ![img](images/images-atharva/3.png)
- According to this plot we notice that the **economy** and the peoples **trust in the government** are somewhat related to one another as a **greater trust** also implies a **better economy (a few exceptions)**. Whether Trust and Happiness are related is still vague and cannot be determined yet.
 
- To finalize, I looked at the time series correlation for 3 years for all the factors that contributed to the country’s happiness.
+According to this plot we notice that the **economy** and the peoples **trust in the government** are somewhat related to one another as a **greater trust** also implies a **better economy (a few exceptions)**. Whether Trust and Happiness are related is still vague and cannot be determined yet.
+
+To finalize, I looked at the time series correlation for 3 years for all the factors that contributed to the country’s happiness.
 
 ![img](images/images-atharva/4.png)
 
- According to our **correlation coefficient** of **0.78, 0.81, and 0.82** stated in the above heat map, we can conclude that a **stable economy (GDP per Capita)** does have a **positive impact** on the **happiness** of the country and its people. A wealthier country will have more resources and therefore can provide for their citizens better than a financially unstable country.
+According to our **correlation coefficient** of **0.78, 0.81, and 0.82** stated in the above heat map, we can conclude that a **stable economy (GDP per Capita)** does have a **positive impact** on the **happiness** of the country and its people. A wealthier country will have more resources and therefore can provide for their citizens better than a financially unstable country.
 
- Meanwhile, we noticed that the correlation of **0.42, 0.44, and 0.45** do **not have a significant influence** on the **happiness score**, which is surprising since the peoples trust in the government should be one of the major factors which affects their happiness as the government is the legal body which is responsible for enforcing new laws and upholding previous ones.
+Meanwhile, we noticed that the correlation of **0.42, 0.44, and 0.45** do **not have a significant influence** on the **happiness score**, which is surprising since the peoples trust in the government should be one of the major factors which affects their happiness as the government is the legal body which is responsible for enforcing new laws and upholding previous ones.
 
 ## Summary
 
- The word ‘happiness’ is used in a number of ways. In this dataset the word is used to denote a sense of satisfaction with life.
+The word ‘happiness’ is used in a number of ways. In this dataset the word is used to denote a sense of satisfaction with life.
  In the broadest sense, freedom can be defined as an individual's ability to make choices, typically major life decisions. The 'ability' to choose necessitates the existence of a 'opportunity' to choose, which is a feature of the environment in which an individual lives.After analysis of multiple graphs and factors which affect the happiness index of countries, we arrive at a conclusion that a stable economy does increase the happiness of a country. While on the contrary, we have come to an astonishing finding that people’s trust in the government does not impact their happiness to a great extent. What this all shows us is that the hypothesis that freedom is directly correlated to happiness ,and that higher freedom yields a higher happiness rank too is correct.This means that countries should put an emphasis on listening to the people's wants and providing them with the freedom they need in order to have a happier populous
